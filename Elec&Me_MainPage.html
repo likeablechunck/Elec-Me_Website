@@ -47,26 +47,33 @@
     <!--</style>-->
 </head>
 <body>
+<img id="myImage" onclick="changeImage()" 
+<script type="text/javascript">
+    var shouldIChangeTheBackground = false;
+    function  changeImage() {
+        var image = document.getElementById('myImage');
+        if(image.src.match("turnedOn"))
+        {
+            image.src = ""; //name of the image saved in file for turn Off image
+        }
+        else {
+            image.src = ""; //name of the image for turning On
+        }
+
+    }
+</script>
 <div id="container">
 
-    <div id="nav">
-        <!--<ul>-->
-            <!--<li><a href="Elec&Me_MainPage.html" class="nav-active">Main</a> </li>-->
-            <!--&lt;!&ndash;<a href="Elec&Me_STEM.html" class="nav">Related Articles</a>&ndash;&gt;-->
-            <!--&lt;!&ndash;<a href="Elec&Me_HowDoesItWork.html" class="nav">How it works</a>&ndash;&gt;-->
-            <!--&lt;!&ndash;<a href="Elec&Me_SoftwareHardwaresUsed.html" class="nav">Tools used</a>&ndash;&gt;-->
-            <!--&lt;!&ndash;<a href="Elec&Me_Blog.html" class="nav">Blog</a>&ndash;&gt;-->
-            <!--&lt;!&ndash;<a href="Elec&Me_AboutDesigner.html" class="nav">About Designer</a>&ndash;&gt;-->
-            <!--&lt;!&ndash;<a href="Elec&Me_DownloadPage.html" class="nav">Download</a>&ndash;&gt;-->
-        <!--</ul>-->
-        <a href="Elec&Me_MainPage.html" class="nav-active">Main</a>
-        <a href="Elec&Me_STEM.html" class="nav">Related Articles</a>
-        <a href="Elec&Me_HowDoesItWork.html" class="nav">How it works</a>
-        <a href="Elec&Me_SoftwareHardwaresUsed.html" class="nav">Tools used</a>
-        <a href="Elec&Me_Blog.html" class="nav">Blog</a>
-        <a href="Elec&Me_AboutDesigner.html" class="nav">About Designer</a>
-        <a href="Elec&Me_DownloadPage.html" class="nav">Download</a>
-    </div>
+</div>
+<div id="nav">
+    <a href="Elec&Me_MainPage.html" class="nav-active">Main</a><br>
+    <a href="Elec&Me_Blog.html" class="nav">Blog</a><br>
+    <a href="Elec&Me_DownloadPage.html" class="nav">Download</a><br>
+    <a href="Elec&Me_SoftwareHardwaresUsed.html" class="nav">Tools used</a><br>
+    <a href="Elec&Me_HowDoesItWork.html" class="nav">How it works</a><br>
+    <a href="Elec&Me_STEM.html" class="nav">Related Articles</a><br>
+    <a href="Elec&Me_AboutDesigner.html" class="nav">About Designer</a><br>
+
 </div>
 
 </body>
