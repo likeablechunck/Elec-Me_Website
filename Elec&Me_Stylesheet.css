@@ -1,0 +1,44 @@
+body{
+    font-family: "verdana", sans-serif;
+    margin: 40px;
+    background-color: darkgreen;
+    background-image: url("Img/Thinking_kid2.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 0px 95px;
+}
+#container {
+    width:100%;
+    text-align: center;
+    margin: 0 auto;
+}
+.nav {
+    display: inline-block;
+    padding: 1%;
+    margin: 1% 1%;
+    border-style: dotted dashed solid dashed;
+    text-decoration: none;
+    color: #F0FFFF;
+    text-transform: capitalize;
+}
+
+.nav-active {
+    display: inline-block;
+    padding: 1%;
+    margin: 1% 1%;
+    text-decoration: none;
+    font-style: italic;
+    color: 	#FFD700;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#nav {
+    align-content: center;
+    display: inline-block;
+    width: 100%;
+}
+
+.nav:hover{
+    text-decoration: underline;
+}
