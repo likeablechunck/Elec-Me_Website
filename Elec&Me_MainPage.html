@@ -47,17 +47,47 @@
     <!--</style>-->
 </head>
 <body>
-<img id="myImage" onclick="changeImage()" 
+<div class="containerdiv">
+    <!--Default image is when switch is off and the circuit is in OFF situation-->
+    <!--<img class="cornerimage" id="mySwitch" onclick="changeImage()" src="Img/switch_OFF.png" alt="off switch">-->
+
+</div>
+<img class="containerdiv" id="myImage" src="Img/Thinking_kid_TurnOFF.png" alt="off circuit">
+<img class="cornerimage" id="mySwitch" onclick="changeImage()" src="Img/switch_OFF.png" alt="off switch">
+
+<!--&lt;!&ndash;Default image is when switch is off and the circuit is in OFF situation&ndash;&gt;-->
+<!--<img id="mySwitch" onclick="changeImage()" src="Img/switch_OFF.png" alt="off switch">-->
+<!--<img id="myImage" src="Img/Thinking_kid_TurnOFF.png" alt="off circuit">-->
+<!--when player clicks on the switch, it should change the image to On or Off depending on the previous state-->
+
 <script type="text/javascript">
     var shouldIChangeTheBackground = false;
     function  changeImage() {
-        var image = document.getElementById('myImage');
-        if(image.src.match("turnedOn"))
+        var mySwitchImage = document.getElementById('mySwitch');
+        var myCircuitImage = document.getElementById('myImage');
+        if(mySwitchImage.src.match("switch_ON") && myCircuitImage.src.match("Thinking_kid_TurnON"))
         {
-            image.src = ""; //name of the image saved in file for turn Off image
+            shouldIChangeTheBackground = false;
+            mySwitchImage.src = "Img/switch_OFF"; //name of the image saved in file for turn Off switch
+            mySwitchImage.className = "cornerimage";
+            myCircuitImage.src = "Img/Thinking_kid_TurnOFF.png";
+            myCircuitImage.className ="containerdiv";
+
         }
-        else {
-            image.src = ""; //name of the image for turning On
+        else if(mySwitchImage.src.match("switch_OFF") && myCircuitImage.src.match("Thinking_kid_TurnOFF")) {
+            shouldIChangeTheBackground = true;
+            mySwitchImage.src = "Img/switch_ON"; //name of the image for turning On
+            mySwitchImage.className = "cornerimage";
+            myCircuitImage.src = "Img/Thinking_kid_TurnON.png";
+            myCircuitImage.className ="containerdiv";
+        }
+        //if none of the conditions are met, set both images to off
+        else{
+            mySwitchImage.src = "Img/switch_OFF"; //name of the image saved in file for turn Off switch
+            mySwitchImage.className = "cornerimage";
+            myCircuitImage.src = "Img/Thinking_kid_TurnOFF.png";
+            myCircuitImage.className ="containerdiv";
+
         }
 
     }
@@ -66,13 +96,13 @@
 
 </div>
 <div id="nav">
-    <a href="Elec&Me_MainPage.html" class="nav-active">Main</a><br>
-    <a href="Elec&Me_Blog.html" class="nav">Blog</a><br>
-    <a href="Elec&Me_DownloadPage.html" class="nav">Download</a><br>
-    <a href="Elec&Me_SoftwareHardwaresUsed.html" class="nav">Tools used</a><br>
-    <a href="Elec&Me_HowDoesItWork.html" class="nav">How it works</a><br>
-    <a href="Elec&Me_STEM.html" class="nav">Related Articles</a><br>
-    <a href="Elec&Me_AboutDesigner.html" class="nav">About Designer</a><br>
+    <a href="Elec&Me_MainPage.html" class="nav-active">Main</a>
+    <a href="Elec&Me_Blog.html" class="nav">Blog</a>
+    <a href="Elec&Me_DownloadPage.html" class="nav">Download</a>
+    <a href="Elec&Me_SoftwareHardwaresUsed.html" class="nav">Tools used</a>
+    <a href="Elec&Me_HowDoesItWork.html" class="nav">How it works</a>
+    <a href="Elec&Me_STEM.html" class="nav">Related Articles</a>
+    <a href="Elec&Me_AboutDesigner.html" class="nav">About Designer</a>
 
 </div>
 

@@ -2,10 +2,10 @@ body{
     font-family: "verdana", sans-serif;
     margin: 40px;
     background-color: darkgreen;
-    background-image: url("Img/Thinking_kid2.png");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: 0px 95px;
+    /*background-image: url("Img/Thinking_kid2.png");*/
+    /*background-repeat: no-repeat;*/
+    /*background-attachment: fixed;*/
+    /*background-position: 0px 95px;*/
 }
 #container {
     width:100%;
@@ -42,3 +42,11 @@ body{
 .nav:hover{
     text-decoration: underline;
 }
+
+.containerdiv {
+    float: left;
+    position: relative; }
+.cornerimage {
+    position: absolute;
+    top: 120px;
+    right: 100px; }
