@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b5dd015e-25ff-4816-8834-038569e68cfe" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Img/Thinking_kid_TurnOFF.png" afterPath="$PROJECT_DIR$/Img/Thinking_kid_TurnOFF.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Img/Thinking_kid_TurnON.png" afterPath="$PROJECT_DIR$/Img/Thinking_kid_TurnON.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Img/switch_OFF.png" afterPath="$PROJECT_DIR$/Img/switch_OFF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Img/switch_ON.png" afterPath="$PROJECT_DIR$/Img/switch_ON.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Elec&amp;Me_MainPage.html" afterPath="$PROJECT_DIR$/Elec&amp;Me_MainPage.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Elec&amp;Me_Stylesheet.css" afterPath="$PROJECT_DIR$/Elec&amp;Me_Stylesheet.css" />
     </list>
@@ -26,8 +27,8 @@
       <file leaf-file-name="Elec&amp;Me_MainPage.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Elec&amp;Me_MainPage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="50" column="8" lean-forward="false" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
+            <state relative-caret-position="99">
+              <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -36,8 +37,8 @@
       <file leaf-file-name="Elec&amp;Me_Stylesheet.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Elec&amp;Me_Stylesheet.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+            <state relative-caret-position="720">
+              <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -153,8 +154,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="401" />
-    <option name="y" value="230" />
+    <option name="x" value="769" />
+    <option name="y" value="30" />
     <option name="width" value="1061" />
     <option name="height" value="1000" />
   </component>
@@ -210,15 +211,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1494996546103</updated>
-      <workItem from="1494996548340" duration="14717000" />
+      <workItem from="1494996548340" duration="16051000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14717000" />
+    <option name="totallyTimeSpent" value="16051000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="401" y="230" width="1061" height="1000" extended-state="0" />
+    <frame x="769" y="30" width="1061" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24033931" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -316,16 +317,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Elec&amp;Me_Stylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        <state relative-caret-position="720">
+          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Elec&amp;Me_MainPage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="50" column="8" lean-forward="false" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
+        <state relative-caret-position="99">
+          <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
           <folding />
         </state>
       </provider>

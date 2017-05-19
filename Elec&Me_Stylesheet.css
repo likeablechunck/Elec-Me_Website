@@ -45,8 +45,10 @@ body{
 
 .containerdiv {
     float: left;
-    position: relative; }
+    position: relative;
+}
 .cornerimage {
     position: absolute;
-    top: 120px;
-    right: 100px; }
+    top: 170px;
+    right: 170px;
+}
