@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5dd015e-25ff-4816-8834-038569e68cfe" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Img/Thinking_kid_TurnOFF.png" afterPath="$PROJECT_DIR$/Img/Thinking_kid_TurnOFF.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Img/switch_OFF.png" afterPath="$PROJECT_DIR$/Img/switch_OFF.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Img/switch_ON.png" afterPath="$PROJECT_DIR$/Img/switch_ON.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Elec&amp;Me.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Elec&amp;Me_MainPage.html" afterPath="$PROJECT_DIR$/Elec&amp;Me_MainPage.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Elec&amp;Me_Stylesheet.css" afterPath="$PROJECT_DIR$/Elec&amp;Me_Stylesheet.css" />
     </list>
@@ -24,11 +22,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Elec&amp;Me_MainPage.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Elec&amp;Me_MainPage.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Elec&amp;Me_MainPage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+            <state relative-caret-position="729">
+              <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -37,8 +35,18 @@
       <file leaf-file-name="Elec&amp;Me_Stylesheet.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Elec&amp;Me_Stylesheet.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+            <state relative-caret-position="600">
+              <caret line="132" column="0" lean-forward="false" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Elec&amp;Me.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Elec&amp;Me.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -121,6 +129,7 @@
       <list>
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -142,8 +151,9 @@
         <option value="$PROJECT_DIR$/Elec&amp;Me_Blog.html" />
         <option value="$PROJECT_DIR$/Elec&amp;Me_AboutDesigner.html" />
         <option value="$PROJECT_DIR$/Elec&amp;Me_DownloadPage.html" />
-        <option value="$PROJECT_DIR$/Elec&amp;Me_Stylesheet.css" />
         <option value="$PROJECT_DIR$/Elec&amp;Me_MainPage.html" />
+        <option value="$PROJECT_DIR$/Elec&amp;Me_Stylesheet.css" />
+        <option value="$PROJECT_DIR$/Elec&amp;Me.js" />
       </list>
     </option>
   </component>
@@ -154,7 +164,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="769" />
+    <option name="x" value="766" />
     <option name="y" value="30" />
     <option name="width" value="1061" />
     <option name="height" value="1000" />
@@ -211,15 +221,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1494996546103</updated>
-      <workItem from="1494996548340" duration="16051000" />
+      <workItem from="1494996548340" duration="18064000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16051000" />
+    <option name="totallyTimeSpent" value="18064000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="769" y="30" width="1061" height="1000" extended-state="0" />
+    <frame x="766" y="30" width="1061" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24033931" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -251,14 +261,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Elec&amp;Me_HowDoesItWork.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Elec&amp;Me_SoftwareHardwaresUsed.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -315,18 +317,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Elec&amp;Me_Stylesheet.css">
+    <entry file="file://$PROJECT_DIR$/Elec&amp;Me_HowDoesItWork.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+        <state relative-caret-position="60">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Elec&amp;Me_MainPage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        <state relative-caret-position="729">
+          <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Elec&amp;Me_Stylesheet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="132" column="0" lean-forward="false" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Elec&amp;Me.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -1,5 +1,6 @@
 body{
     font-family: "verdana", sans-serif;
+    /*margin: auto;*/
     margin: 40px;
     background-color: darkgreen;
     /*background-image: url("Img/Thinking_kid2.png");*/
@@ -12,36 +13,161 @@ body{
     text-align: center;
     margin: 0 auto;
 }
-.nav {
-    display: inline-block;
-    padding: 1%;
-    margin: 1% 1%;
-    border-style: dotted dashed solid dashed;
-    text-decoration: none;
-    color: #F0FFFF;
-    text-transform: capitalize;
+/*----- Toggle Button -----*/
+.toggle-nav {
+    display:none;
 }
 
-.nav-active {
-    display: inline-block;
-    padding: 1%;
-    margin: 1% 1%;
-    text-decoration: none;
-    font-style: italic;
-    color: 	#FFD700;
-    text-transform: uppercase;
-    font-weight: bold;
+/*----- Menu -----*/
+@media screen and (min-width: 860px) {
+    .menu {
+        width:100%;
+        padding:10px 18px;
+        box-shadow:0px 1px 1px rgba(0,0,0,0.15);
+        border-radius:3px;
+        background:#303030;
+    }
 }
 
-#nav {
-    align-content: center;
-    display: inline-block;
-    width: 100%;
+.menu ul {
+    display:inline-block;
 }
 
-.nav:hover{
-    text-decoration: underline;
+.menu li {
+    margin:0px 50px 0px 0px;
+    float:left;
+    list-style:none;
+    font-size:17px;
 }
+
+.menu li:last-child {
+    margin-right:0px;
+}
+
+.menu a {
+    text-shadow:0px 1px 0px rgba(0,0,0,0.5);
+    color:#777;
+    transition:color linear 0.15s;
+}
+
+.menu a:hover, .menu .current-item a {
+    text-decoration:none;
+    color:#66a992;
+}
+
+
+/*----- Responsive -----*/
+@media screen and (max-width: 1150px) {
+    .wrap {
+        width:90%;
+    }
+}
+
+@media screen and (max-width: 970px) {
+    .search-form input {
+        width:120px;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .menu {
+        position:relative;
+        display:inline-block;
+    }
+
+    .menu ul.active {
+        display:none;
+    }
+
+    .menu ul {
+        width:100%;
+        position:absolute;
+        top:120%;
+        left:0px;
+        padding:10px 18px;
+        box-shadow:0px 1px 1px rgba(0,0,0,0.15);
+        border-radius:3px;
+        background:#303030;
+    }
+
+    .menu ul:after {
+        width:0px;
+        height:0px;
+        position:absolute;
+        top:0%;
+        left:22px;
+        content:'';
+        transform:translate(0%, -100%);
+        border-left:7px solid transparent;
+        border-right:7px solid transparent;
+        border-bottom:7px solid #303030;
+    }
+
+    .menu li {
+        margin:5px 0px 5px 0px;
+        float:none;
+        display:block;
+    }
+
+    .menu a {
+        display:block;
+    }
+
+    .toggle-nav {
+        padding:20px;
+        float:left;
+        display:inline-block;
+        box-shadow:0px 1px 1px rgba(0,0,0,0.15);
+        border-radius:3px;
+        background:#303030;
+        text-shadow:0px 1px 0px rgba(0,0,0,0.5);
+        color:#777;
+        font-size:20px;
+        transition:color linear 0.15s;
+    }
+
+    .toggle-nav:hover, .toggle-nav.active {
+        text-decoration:none;
+        color:#66a992;
+    }
+
+}
+/*.nav {*/
+    /*position: absolute;*/
+    /*top: 50px;*/
+    /*left: 70px;*/
+    /*display: inline-block;*/
+    /*padding: 1%;*/
+    /*margin: 1% 1%;*/
+    /*border-style: dotted dashed solid dashed;*/
+    /*text-decoration: none;*/
+    /*color: #F0FFFF;*/
+    /*text-transform: capitalize;*/
+/*}*/
+
+/*.nav-active {*/
+    /*display: inline-block;*/
+    /*position: absolute;*/
+    /*top: 20px;*/
+    /*left: 70px;*/
+    /*padding: 1%;*/
+    /*margin: 1% 1%;*/
+    /*text-decoration: none;*/
+    /*font-style: italic;*/
+    /*color: 	#FFD700;*/
+    /*text-transform: uppercase;*/
+    /*font-weight: bold;*/
+/*}*/
+
+/*#nav {*/
+    /*align-content: center;*/
+    /*display: inline-block;*/
+    /*!*width: 100%;*!*/
+/*}*/
+
+/*.nav:hover{*/
+    /*text-decoration: underline;*/
+/*}*/
 
 .containerdiv {
     float: left;
